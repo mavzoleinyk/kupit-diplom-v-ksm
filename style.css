@@ -332,7 +332,7 @@ This is the child theme for Astra theme, generated with Generate Child Theme plu
 
 /* Custom elements */
 .btn-solid{
-    background: #0ea5e9;
+    background: #264e70;
     color: #ffffff;
     text-transform: uppercase;
     padding: 15px 20px;
@@ -536,11 +536,12 @@ This is the child theme for Astra theme, generated with Generate Child Theme plu
     margin-bottom: 15px;
 }
 .team-prof{
-    font-size: 20px;
+    font-size: 16px;
 }
 .team-name{
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 .team-social{
     font-size: 16px;
@@ -554,16 +555,15 @@ This is the child theme for Astra theme, generated with Generate Child Theme plu
 .info-posts-container{
     position: relative;
     border-radius: 15px;
-    padding: 30px;
 }
 .info-posts-container:first-of-type{
     margin-bottom: 25px;
 }
 .info-posts-container p{
-    margin-bottom: 0;
-    font-size: 21px;
-    color: #fff;
-    line-height: 31px;
+    font-size: 16px;
+    color: #54555E;
+    line-height: 24px;
+    margin-bottom: 1rem;
 }
 .info-posts-container p span{
     display: block;
@@ -583,33 +583,6 @@ This is the child theme for Astra theme, generated with Generate Child Theme plu
     margin-left: 15px;
     color: #fff;
     position: relative;
-}
-.fishka-item-1::before{
-    content: '1';
-    font-size: 250px;
-    font-weight: 700;
-    color: rgba(255,255,255,.3);
-    line-height: 1;
-    right: 0;
-    bottom: 0;
-}
-.fishka-item-2::before{
-    content: '2';
-    font-size: 250px;
-    font-weight: 700;
-    color: rgba(255,255,255,.3);
-    line-height: 1;
-    right: 0;
-    bottom: 0;
-}
-.fishka-item-3::before{
-    content: '3';
-    font-size: 250px;
-    font-weight: 700;
-    color: rgba(255,255,255,.3);
-    line-height: 1;
-    right: 0;
-    bottom: 0;
 }
 .fishka-item-4::before{
     content: '4';
@@ -756,8 +729,9 @@ This is the child theme for Astra theme, generated with Generate Child Theme plu
     text-align: left;
     flex: 1;
     flex-wrap: wrap;
-    border: 1px solid #eeeeef;
-    border-radius: 5px;
+    border: 1px solid #264e70;
+    background: #264e70;
+    color: #fff;
 }
 .rewiews-content .rewiews-item:first-of-type{
     margin-left: 0;
@@ -789,10 +763,15 @@ This is the child theme for Astra theme, generated with Generate Child Theme plu
     margin-bottom: 15px;
     padding: 10px;
     border-radius: 50%;
-    background-color: #eeeeef;
+    background-color: #264e70;
 }
 .vuz-item .image img{
     border-radius: 50%;
+}
+.vuz-item .title{
+    color: #54555E;
+    font-weight: bold;
+    font-size: 18px;
 }
 .vuz-item .title a{
     color: #54555E;
